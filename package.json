@@ -1,0 +1,17 @@
+{
+  "name": "meshy-openclaw",
+  "version": "0.9.6",
+  "private": true,
+  "description": "Meshy 3D generation and printing in one skill for OpenClaw.",
+  "license": "MIT-0",
+  "type": "module",
+  "scripts": {
+    "sync": "node scripts/sync-references.mjs",
+    "check": "node scripts/sync-references.mjs --check && node scripts/check.mjs"
+  },
+  "meshy": {
+    "skills": "meshy-dev/meshy-3d-agent#v0.9.6",
+    "cli": "0.8",
+    "minCli": "0.8.5"
+  }
+}
